@@ -1,0 +1,37 @@
+[MASTER]
+ignore=CVS,TXT
+jobs=0
+suggestion-mode=yes
+
+[MESSAGES CONTROL]
+
+[REPORTS]
+output-format=text
+reports=no
+
+[REFACTORING]
+max-nested-blocks=5
+never-returning-functions=sys.exit
+
+[FORMAT]
+max-line-length=248
+
+[BASIC]
+argument-naming-style=camelCase
+attr-naming-style=camelCase
+class-attribute-naming-style=any
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+docstring-min-length=-1
+function-naming-style=camelCase
+method-naming-style=camelCase
+module-naming-style=camelCase
+variable-naming-style=camelCase
+
+good-names=E,
+           f
+
+
+[TYPECHECK]
+ignored-classes=Family,
+                AsPathAttribute
