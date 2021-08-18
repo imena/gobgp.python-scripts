@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 from google.protobuf import any_pb2 as google_dot_protobuf_dot_any__pb2
-import gobgp_pb2 as gobgp__pb2
+import api.gobgp_pb2 as gobgp__pb2
 
 
 DESCRIPTOR = _descriptor.FileDescriptor(
